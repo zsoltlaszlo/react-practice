@@ -1,18 +1,15 @@
 import React from "react"
-import Navbar from "./components/Navbar"
-import MainConent from "./components/MainContent"
-import Footer from "./components/Footer"
-
+import TodoItem from "./TodoItem";
 
 function App() {
     return (
-        <div>
-            <Navbar />
-            <MainConent />
-            <Footer />
+        <div className="todoListContainer">
+            <TodoItem />
+            <TodoItem />
+            <TodoItem />
+            <TodoItem />
         </div>
     )
 }
-
 
 export default App

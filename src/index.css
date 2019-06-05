@@ -1,0 +1,14 @@
+.todoListContainer {
+  margin: 0px auto;
+  width: 300px;
+  background-color: #f5f5f5;
+}
+
+.todoItem {
+  display: flex;
+  padding: 20px;
+}
+
+.todoItem p {
+  margin: 0;
+}
